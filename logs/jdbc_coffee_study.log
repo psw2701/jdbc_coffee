@@ -1,0 +1,84 @@
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] errorCode 0 errorMessage Connections could not be acquired from the underlying database!
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into coffee values(null,'A005', 4500, 100, 10)]
+[2018-11-14] errorCode 1146 errorMessage Table 'coffee.coffee' doesn't exist
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@6844107d [wrapping: com.mysql.jdbc.JDBC4Connection@1ff3840d]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into sale values(null,'A005', 4500, 100, 10)]
+[2018-11-14] errorCode 1452 errorMessage Cannot add or update a child row: a foreign key constraint fails (`coffee`.`sale`, CONSTRAINT `sale_ibfk_1` FOREIGN KEY (`code`) REFERENCES `product` (`code`))
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@22fc74ab [wrapping: com.mysql.jdbc.JDBC4Connection@2aaf91dd]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into sale values(null,'A005', 4500, 100, 10)]
+[2018-11-14] errorCode 1452 errorMessage Cannot add or update a child row: a foreign key constraint fails (`coffee`.`sale`, CONSTRAINT `sale_ibfk_1` FOREIGN KEY (`code`) REFERENCES `product` (`code`))
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@22fc74ab [wrapping: com.mysql.jdbc.JDBC4Connection@5df4c3ac]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into sale values(null,'A005', 4500, 100, 10)]
+[2018-11-14] errorCode 1452 errorMessage Cannot add or update a child row: a foreign key constraint fails (`coffee`.`sale`, CONSTRAINT `sale_ibfk_1` FOREIGN KEY (`code`) REFERENCES `product` (`code`))
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@22fc74ab [wrapping: com.mysql.jdbc.JDBC4Connection@3037aef8]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into sale values(null,'A005', 4500, 100, 10);]
+[2018-11-14] errorCode 1452 errorMessage Cannot add or update a child row: a foreign key constraint fails (`coffee`.`sale`, CONSTRAINT `sale_ibfk_1` FOREIGN KEY (`code`) REFERENCES `product` (`code`))
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@6844107d [wrapping: com.mysql.jdbc.JDBC4Connection@5b2bfaf3]
+[2018-11-14] End ConnectionProviderTest
+[2018-11-14] Start CoffeeDaoTest
+[2018-11-14] insert()
+[2018-11-14] insert into sale values(null,'A002', 4500, 100, 10);]
+[2018-11-14] rowAffected 1
+[2018-11-14] End CoffeeDaoTest
+[2018-11-14] Start ConnectionProviderTest
+[2018-11-14] com.mchange.v2.c3p0.impl.NewProxyConnection@1d2668ec [wrapping: com.mysql.jdbc.JDBC4Connection@5f97c240]
+[2018-11-14] End ConnectionProviderTest
